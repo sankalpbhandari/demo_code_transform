@@ -9,10 +9,19 @@ import com.nxllxn.plantuml.writer.UmlDiagramWriter;
 import java.util.HashSet;
 import java.util.List;
 
+
+
+
 /**
  * Hello world!
  */
 public class App {
+
+
+/**
+ * Add a function that adds 2 numbers and call it in main
+ */
+
     public static void main(String[] args) {
         ClassScannerConfiguration classScannerConfiguration = new ClassScannerConfiguration();
 
