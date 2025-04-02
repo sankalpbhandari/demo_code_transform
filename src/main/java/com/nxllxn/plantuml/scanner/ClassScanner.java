@@ -315,7 +315,7 @@ public final class ClassScanner {
                     .filter(includePackage -> isScanSubPackages && StringUtils.startsWith(currentPackageName, includePackage)
                             || !isScanSubPackages && StringUtils.equals(currentPackageName,includePackage));
 
-            if (!includeStream.findAny().isPresent()){
+            if (includeStream.findAny().isEmpty()){
                 return false;
             }
         }
