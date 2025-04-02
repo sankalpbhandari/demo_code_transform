@@ -38,3 +38,4 @@ public class App {
         new UmlDiagramWriter("uml",UmlDiagramWriter.FILE_TYPE_SVG,compilationUnits).write();
 
 }
+}
