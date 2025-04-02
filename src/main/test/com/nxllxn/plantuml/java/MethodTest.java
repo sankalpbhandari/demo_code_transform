@@ -4,7 +4,6 @@ import com.nxllxn.plantuml.java.FullyQualifiedJavaType;
 import com.nxllxn.plantuml.java.Method;
 import com.nxllxn.plantuml.java.Parameter;
 import com.nxllxn.plantuml.java.Visibility;
-import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
 

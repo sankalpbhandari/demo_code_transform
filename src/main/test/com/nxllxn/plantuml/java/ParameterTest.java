@@ -2,7 +2,6 @@ package test.com.nxllxn.plantuml.java;
 
 import com.nxllxn.plantuml.java.FullyQualifiedJavaType;
 import com.nxllxn.plantuml.java.Parameter;
-import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
 
