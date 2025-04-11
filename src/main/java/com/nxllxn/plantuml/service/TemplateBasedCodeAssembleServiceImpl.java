@@ -505,7 +505,7 @@ public class TemplateBasedCodeAssembleServiceImpl implements CodeAssembleService
 
         String template = "<!DOCTYPE %s PUBLIC \"%s\" \"%s\">";
 
-        return String.format(template, rootNodeName, publicId == null ? "" : publicId, systemId == null ? "" : systemId);
+        return template.formatted(rootNodeName, publicId == null ? "" : publicId, systemId == null ? "" : systemId);
     }
 
     @Override
